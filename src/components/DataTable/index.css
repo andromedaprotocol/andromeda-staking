@@ -1,0 +1,135 @@
+.table2 table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 5px;
+}
+
+.table2 div[aria-label="Table Toolbar"] {
+  display: none;
+}
+
+.table2 > div {
+  background: transparent;
+  box-shadow: unset;
+}
+
+.table2 thead th {
+  border-bottom: unset;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.table2 thead th > span {
+  justify-content: center;
+}
+
+.table2 th button,
+.table2 thead th > div {
+  font-family: "Blinker", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 130%;
+  color: #ffffff;
+  margin: auto;
+  width: max-content;
+  text-align: center;
+}
+
+.table2 th button div {
+  color: #ffffff;
+}
+
+.table2 th button svg {
+  fill: #ffffff;
+}
+
+.table2 th button > span > div > div:last-child {
+  display: flex;
+  align-items: center;
+}
+
+.table2 tbody tr td {
+  background: #ffffff;
+  border: unset;
+  margin-bottom: 10px;
+  padding: 12px;
+  border-color: #ffff;
+}
+
+.table2 tbody tr td > div {
+  text-align: center;
+  font-family: "Blinker", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  color: #696969;
+}
+
+.table2 tbody tr td:first-child {
+  border-radius: 50px 0 0 50px;
+}
+
+.table2 tbody tr td:last-child {
+  border-radius: 0 50px 50px 0;
+}
+
+.table2 tbody tr td[colspan="6"] {
+  border-radius: 50px;
+}
+
+@media (max-width: 958px) {
+  .table2 table {
+    border-spacing: 0 10px;
+    margin-top: unset;
+  }
+
+  .table2 tbody tr td {
+    padding: 12px 20px;
+    margin-bottom: -1px;
+    border-radius: unset;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .table2 tbody tr td > div {
+    text-align: left;
+  }
+
+  .table2 tbody tr td > div:last-child {
+    text-align: right;
+  }
+
+  .table2 tbody tr td:first-child {
+    border-radius: 10px 10px 0 0;
+  }
+
+  .table2 tbody tr td:last-child {
+    border-radius: 0 0 10px 10px;
+  }
+
+  .table2 tbody tr td:first-child > div:first-child,
+  .table2 tbody tr td:last-child > div:first-child {
+    display: none;
+  }
+
+  .table2 tbody tr td:first-child > div:nth-child(2),
+  .table2 tbody tr td:last-child > div:nth-child(2) {
+    width: 100%;
+  }
+}
+
+@media (max-width: 426px) {
+  .table2 table {
+    width: 100%;
+  }
+  .table2 table tbody,
+  .table2 table tbody tr,
+  .table2 tbody tr td {
+    width: 100%;
+  }
+
+  .table2 tbody tr td > div {
+    width: auto;
+  }
+}

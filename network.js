@@ -1,24 +1,24 @@
 export default {
   id: 'cosmos-hub-testnet', // DEPRECATE, only used for Lunie extension, NOT CHAIN ID
-  name: 'Cosmos Stargate',
+  name: 'Chain ID',
   description:
     'Cosmos is a network of independent parallel blockchains, powered by BFT consensus algorithms like Tendermint.',
   logo: `logo.svg`,
-  website: 'https://cosmos.network',
-  apiURL: 'http://localhost:8010/proxy', // use `npx lcp --proxyUrl http://34.123.30.100:1317`
-  rpcURL: 'ws://34.123.30.100:26657',
-  stakingDenom: 'MUON',
+  website: 'http://137.184.47.16:26657',
+  apiURL: 'http://137.184.47.16:1317', // use `npx lcp --proxyUrl http://34.123.30.100:1317`
+  rpcURL: 'http://137.184.47.16:26657',
+  stakingDenom: 'ANDR',
   coinLookup: [
     {
-      viewDenom: 'MUON',
-      chainDenom: 'umuon',
+      viewDenom: 'ANDR',
+      chainDenom: 'uandr',
       chainToViewConversionFactor: 1e-6,
       icon: `currencies/muon.png`,
     },
   ],
-  addressPrefix: 'cosmos',
-  validatorAddressPrefix: 'cosmosvaloper',
-  validatorConsensusaddressPrefix: 'cosmosvalcons', // needed to map validators from staking queries to the validator set
+  addressPrefix: 'andr',
+  validatorAddressPrefix: 'andrvaloper',
+  validatorConsensusaddressPrefix: 'andrvalcons', // needed to map validators from staking queries to the validator set
   HDPath: `m/44'/118'/0'/0/0`,
   lockUpPeriod: `3 days`,
   fees: {
@@ -26,7 +26,7 @@ export default {
       gasEstimate: 350000,
       feeOptions: [
         {
-          denom: 'MUON',
+          denom: 'uandr',
           amount: 0.001,
         },
       ],

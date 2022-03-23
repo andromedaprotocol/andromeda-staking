@@ -169,9 +169,9 @@ export default class CosmosAPI {
       signedBlocksWindow,
     ] = await Promise.all([
       Promise.all([
-        this.query(`staking/validators?status=unbonding`),
-        this.query(`staking/validators?status=bonded`),
-        this.query(`staking/validators?status=unbonded`),
+        this.query(`staking/validators?status=BOND_STATUS_UNBONDING`),
+        this.query(`staking/validators?status=BOND_STATUS_BONDED`),
+        this.query(`staking/validators?status=BOND_STATUS_UNBONDED`),
       ]).then((validatorGroups) => [].concat(...validatorGroups)),
       this.getAnnualProvision().catch(() => undefined),
       this.getValidatorSet(height),

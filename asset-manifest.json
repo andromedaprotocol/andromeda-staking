@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/andromeda-staking/static/css/main.504b3dae.css",
+    "main.js": "/andromeda-staking/static/js/main.f539253a.js",
+    "static/media/AND_Logo-Full.svg": "/andromeda-staking/static/media/AND_Logo-Full.8963f31af68f2281a4e3c729efef1489.svg",
+    "static/media/icons.svg": "/andromeda-staking/static/media/icons.96cb2aaefc7c2aec28ebdcabb50bb82e.svg",
+    "index.html": "/andromeda-staking/index.html",
+    "static/media/processing.svg": "/andromeda-staking/static/media/processing.aa06d4835e1f41a24050593186a8038e.svg",
+    "static/media/rewards.svg": "/andromeda-staking/static/media/rewards.685244e6af21f51f5141feb4ef8262c7.svg",
+    "static/media/warning.svg": "/andromeda-staking/static/media/warning.f72e9c73122b8c6b25ef0fb3a405824d.svg",
+    "static/media/failed.svg": "/andromeda-staking/static/media/failed.06610ecc98e289c057115133fffc5327.svg",
+    "static/media/success.svg": "/andromeda-staking/static/media/success.4e265eef93c3055a9de3f67af55f5e80.svg",
+    "main.504b3dae.css.map": "/andromeda-staking/static/css/main.504b3dae.css.map",
+    "main.f539253a.js.map": "/andromeda-staking/static/js/main.f539253a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.504b3dae.css",
+    "static/js/main.f539253a.js"
+  ]
+}

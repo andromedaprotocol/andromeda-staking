@@ -2,6 +2,7 @@
   "name": "andromeda-staking",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://andromedaprotocol.github.io/andromeda-staking",
   "dependencies": {
     "@andromedaprotocol/core": "^0.6.13",
     "@andromedaprotocol/react": "^0.2.13",

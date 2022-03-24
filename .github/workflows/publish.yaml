@@ -8,11 +8,11 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Install and Build 
-      run: |
+      - name: Install and Build
+        run: |
           npm ci
           npm run build
-      
+
       # Creates a .nojekyll file to disable github jekyll
       - name: Creating ".nojekyll" file
         run: sudo touch ./build/.nojekyll

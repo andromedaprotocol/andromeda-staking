@@ -1,3 +1,7 @@
+
+https://andromedaprotocol.github.io/andromeda-staking/
+
+
 # inSync by OmniFlix (for Communities)
 
 inSync is a collaborative interface for an entire community (or) blockchain network to:

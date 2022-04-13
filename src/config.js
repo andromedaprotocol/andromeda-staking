@@ -1,6 +1,6 @@
 export const config = {
-    RPC_URL: 'http://137.184.47.16:26657',
-    REST_URL: 'http://137.184.47.16:1317',
+    RPC_URL: 'https://rpc-galileo-1.andromedaprotocol.io:26657',
+    REST_URL: 'https://rpc-galileo-1.andromedaprotocol.io:1317',
     EXPLORER_URL: 'https://www.mintscan.io/juno',
     STAKING_URL: 'https://juno.omniflix.co/stake',
     NETWORK_NAME: 'Andromeda',
